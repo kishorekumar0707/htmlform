@@ -1,0 +1,63 @@
+#form {
+    background-color: rgb(98, 241, 241);
+min-width: 100px;
+max-width: 600px;
+/* height: 450px; */
+margin: auto;
+margin-top: 150px;
+border: 1px solid #dddfe2;
+padding: 20px;
+padding-top: 30px;
+/* color: white; */
+font-size: larger;
+height: auto;
+border-radius: 10px;
+box-shadow: 1px -1px 48px -5px rgba(0, 0, 0, 0.4);
+/* animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; */
+animation: slide-left 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+input{
+background:rgba(255, 255, 255, 0.9);
+/* display: flexbox; */
+width: auto;
+padding: 5px;
+/* margin-top: 10px; */
+border: 1px solid rgb(0, 0, 0);
+border-radius: 10px;
+font-size: 15px;
+
+}
+button{
+border: 2px solid blue;
+position: relative;
+display: flexbox;
+border-radius: 10px;
+/* max-width:100px; */
+width: 100%;
+/* margin-left: 190px; */
+/* min-width: 100px; */
+height: 40px;
+font-size: larger;
+margin-top: 20px;
+background-color: blue;
+color: white;
+font-weight: bold;
+
+}
+textarea{
+    margin-bottom: -25px;
+}
+
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color:aqua;
+        }
